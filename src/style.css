@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,700&display=swap');
+
+:root {
+  --grey: #f6f6f6;
+  --green: #c7ffd8;
+  --cyan: #98ded9;
+  --blue: #161d6f;
+}
+
+.root-content {
+  height: 100vh;
+  width: 100%;
+  font-family: Roboto, sans-serif;
+  background-color: var(--grey);
+}
+
+.clipath-effect {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.clipath-effect:nth-child(1) h2, .clipath-effect:nth-child(1) p {
+  color: var(--cyan);
+}
+
+.clipath-effect:nth-child(2) h2, .clipath-effect:nth-child(2) p {
+  color: var(--blue);
+}
+
+.clipath-effect:nth-child(3) h2, .clipath-effect:nth-child(3) p {
+  color: var(--blue);
+}
+
+h2 {
+  position: relative;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  font-size: calc(1rem * 8);
+  line-height: calc(1rem * 8);
+}
+
+p {
+  max-width: 50rem;
+  margin-top: 2rem;
+}
