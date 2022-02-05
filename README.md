@@ -1,2 +1,1 @@
-# clipath-effect
-Clipath and illusion effect
+# Clip path Effect
